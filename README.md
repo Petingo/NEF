@@ -75,8 +75,8 @@ Novel view synthesis is not necessary for 3D curves extraction. If there is a ne
 
 ```bash
 python eval.py \
---root_dir ABC_NEF_examples/00000006 \
---dataset_name blender --img_wh 400 400 --N_importance 64\
+--root_dir ABC_NEF/00000006 \
+--dataset_name blender --img_wh 400 400 --N_importance 64 \
 --ckpt_path ckpts_ABC_examples/00000006/epoch=5.ckpt \
 --scene_name 00000006
 ```
